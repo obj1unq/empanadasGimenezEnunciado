@@ -33,18 +33,11 @@ Entonces el sueldo de Baigorria es 12000, y el fondo de Galván tiene 268000 pes
 
 ## Qué hacen los empleados con lo que cobran
 
-Se modifica el método pagarSueldo(empleado) de Giménez de esta forma
-
-```javascript
-method pagarSueldo(empleado) {
-    dinero -= empleado.sueldo()
-    empleado.cobrarSueldo()
-}
-```
-- probar haciendo que Giménez le pague a Baigorria. Se rompe. ¿Por qué?
-- ¿qué método o métodos hay que agregar, en qué objeto u objetos, para que Giménez le pueda pagar el sueldo a cualquiera de los dos empleados?
-- agregar esos métodos con el siguiente criterio: Baigorria cuando cobra el sueldo lo suma a un acumulador de todo lo que cobró, agregarle la capacidad de entender el mensaje `totalCobrado()`. Galván no hace nada.
-Nota: Ojo con las ganancias del mes pasado que ya le pagaron a Baigorria!
+Ahora queremos agregar al modelo aquellos que hacen los empleados cuando cobran el suedo:
+- Agregar / modificar los métodos necesarios para que Giménez le pueda pagar el sueldo a cualquiera de los dos empleados teniendo en cuenta que:
+  - Baigorria cuando cobra el sueldo lo suma a un acumulador de todo lo que cobró, agregarle la capacidad de entender el mensaje `totalCobrado()`. 
+    _Nota: Ojo con las ganancias del mes pasado que ya le pagaron a Baigorria! ¿Qué debe pasar con la cantidad de empanadas vendidas?_
+  - Galván no hace nada.
 
 <br>
 
