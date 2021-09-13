@@ -52,7 +52,7 @@ Tener en cuenta este escenario
 1. Galván cobra, con los 15000 que recibe paga toda su deuda y le sobran 3000 pesos. Por lo tanto, `deuda()` debe ser 0, y `dinero()` debe ser 3000.
 1. Galván gasta 25000, cubre 3000 con el dinero que tiene, el resto es deuda. `deuda()` queda en 22000, `dinero()` en 0.
 1. Galván cobra, tiene que dedicar los 15000 a pagar deudas, y no le alcanza. Ahora, `deuda()` pasa a 7000, y `dinero()` a 0.
-
+1. Galván cobra, paga su deuda. Ahora, `deuda()` queda en 0 y `dinero` en 8000.
 
 <br>
 
