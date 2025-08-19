@@ -1,7 +1,3 @@
-
- 
-[![Build Status](https://travis-ci.org/wollok/polimorfismoEmpanadasGimenez.svg?branch=master)](https://travis-ci.org/wollok/polimorfismoEmpanadasGimenez)
-
 # Empanadas Giménez
 
 <img src="img/empanadasGimenez.png" height="200" width="300">
